@@ -1,0 +1,49 @@
+
+  
+  @font-face {
+    font-family: 'avenirregular';
+    src: url('./avenir/AvenirNextLTPro-It.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'avenirbold';
+    src: url('./avenir/AvenirNextLTPro-Bold.otf') format('otf'); 
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'worksanregular';
+    src: url('./work-sans/WorkSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'worksanmedium';
+    src: url('./work-sans/WorkSans-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'worksanbold';
+    src: url('./work-sans/WorkSans-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* definitions */
+.font-avenir{
+    font-family: 'avenirregular' !important;
+}
+.font-avenir-bold{
+    font-family: 'avenirbold' !important;
+}
+.font-worksans{
+    font-family: 'worksanregular' !important;
+}
+.font-worksans-medium{
+    font-family: 'worksanmedium' !important;
+}
+.font-worksans-bold{
+    font-family: 'worksanbold' !important;
+}

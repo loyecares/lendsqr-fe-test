@@ -1,0 +1,128 @@
+@import "./variable.scss";
+
+.login-wrap{
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+   
+    .login-img-wrap{
+       
+        padding: 6.3rem 4.2rem;
+        .logo{
+            padding-left: 2rem;
+            img{
+               
+            }
+        }
+        .login-img{
+            position: absolute; 
+            top: 30%; 
+            
+       
+           
+
+        }
+    }
+    .login-text-wrap{
+        padding: 9.7rem 0 0 6.2rem ;
+        .login-heading{
+            h3{
+                
+                color: $primary-color;
+                font-family: Avenir Next;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 70px;
+                letter-spacing: -0.1rem;
+            }
+            p{
+                color: #545F7D;
+                font-family: Avenir Next;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .login-form-wrap{
+            margin-top: 40px;
+            .input-wrap{
+                margin-bottom: 24px;
+                position: relative;
+                input{
+                    border-radius: 5px;
+                    border: 2px solid rgba(84, 95, 125, 0.15);
+                    background: #FFF;
+                    color: #545F7D;;
+                    width: 80%;
+                    font-family: Avenir Next;
+                    height: 50px;
+                    padding: 10px 16px;
+                    &:focus{
+                        border-color: $secondary-color;
+                        outline: none;
+                    }
+                    
+                }
+                .error{
+                    color: red;
+                    font-size: 11px;
+                }
+                .pw-display{
+                    position: absolute;
+                    top: 17px;
+                    right: 22%;
+                    color: #39CDCC;
+                    font-family: Avenir Next;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 1.2px;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: #2db3b2;
+                    }
+                }
+            }
+            .forget-password{
+                color: $secondary-color;
+                font-family: Avenir Next;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+            }
+            .form-action-wrap {
+                width: 80%;
+                margin-top: 30px;
+                button{
+                    width: 100%;
+                    border-radius: 8px;
+                    background: #39CDCC;
+                    height: 48px;
+                    color: #FFF;
+                    font-family: Avenir Next;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                    &:disabled{
+                        background-color: rgba(57, 205, 204, 0.5) ;
+                    }
+                    &:hover{
+                        background-color: #2db3b2;
+                    }
+                }
+            }
+           
+            
+
+        }
+    }
+
+}
